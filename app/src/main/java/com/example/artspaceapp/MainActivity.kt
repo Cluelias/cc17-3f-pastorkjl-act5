@@ -20,8 +20,10 @@ class MainActivity : AppCompatActivity() {
         "Fleeting Thoughts",
         "Moon Seller",
         "Mystic Rose",
-        "Mom? Dad? Friends?",
-        "Hundred Years Ago",
+        "Mom? Dad?\n " +
+                "Friends?",
+        "Hundred Years \n" +
+                "Ago",
         "Spirited Away",
         "Vocaloid Forever",
         "Dark Hour"
