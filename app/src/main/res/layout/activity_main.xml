@@ -25,7 +25,7 @@
             android:layout_width="244dp"
             android:layout_height="380dp"
             android:layout_margin="35dp"
-            android:contentDescription="Art Image"
+            android:contentDescription="@string/art_image"
             android:scaleType="centerCrop" />
     </FrameLayout>
 
@@ -47,7 +47,7 @@
         android:id="@+id/descriptionTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Description"
+        android:text="@string/description"
         android:textAlignment="center"
         android:textColor="#530306"
         android:textSize="30sp"
@@ -62,7 +62,7 @@
         android:id="@+id/description2TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Artist"
+        android:text="@string/artist"
         android:textAlignment="center"
         android:textColor="#530306"
         android:textSize="20sp"
@@ -75,32 +75,35 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
+        style="?android:attr/buttonBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.372"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.966">
+        app:layout_constraintVertical_bias="0.964">
 
         <Button
             android:id="@+id/previousButton"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:backgroundTint="#fdc6bf"
-            android:text="Previous"
+            android:text="@string/previous"
             android:textColor="#530306" />
 
         <Button
             android:id="@+id/nextButton"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:backgroundTint="#fdc6bf"
-            android:text="Next"
+            android:text="@string/next"
             android:textColor="#530306" />
     </LinearLayout>
 

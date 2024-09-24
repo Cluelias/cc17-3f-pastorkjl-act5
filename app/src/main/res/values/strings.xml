@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ArtSpaceApp</string>
+    <string name="artist">Artist</string>
+    <string name="description">Description</string>
+    <string name="art_image">Art Image</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
 </resources>
